@@ -29,6 +29,8 @@ Synopsis
 
 ```nginx
 # accessing /foo?callback=process gives the response
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FEZO801%2Fxss-nginx-module.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FEZO801%2Fxss-nginx-module?ref=badge_shield)
+
 # body "process(...);" (without quotes) where "..."
 # is the original response body of the /foo location.
 server {
@@ -292,3 +294,7 @@ See Also
 
 [Back to TOC](#table-of-contents)
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FEZO801%2Fxss-nginx-module.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FEZO801%2Fxss-nginx-module?ref=badge_large)
